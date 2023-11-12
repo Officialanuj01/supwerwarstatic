@@ -1,0 +1,40 @@
+#main{
+    display: flex;
+    justify-content: center;
+
+}
+.place{
+    display: grid;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 5px; 
+    box-shadow: 0px 0px 2px 2px rgb(184, 183, 183);
+}
+.place{
+    justify-content: center;
+    align-items: center;
+}
+.side{
+    height: 300px;
+    display: grid;
+    grid-template-columns: 150px 150px;
+    justify-content: center;
+    gap: 20px;
+}
+#score{
+    text-align: center;
+    width: 200px;
+    
+}
+.scoretext{
+    font-size: 20px;
+    
+}
+.text{
+    font-size: 40px;
+    size: 40px;
+}
+.char{
+    height: 120px;
+    width: 100px;
+}
